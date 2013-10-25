@@ -1,0 +1,20 @@
+def printStack(Alist):
+    for items in Alist:
+        print (items)
+
+A=[10,20,30,40,50]
+A.append(60) #insert in to last position
+printStack(A)
+
+A.pop() #remove an item from the back
+printStack(A)
+
+A.reverse()
+printStack(A) #reverse the list
+
+A.sort()
+
+
+
+
+    
